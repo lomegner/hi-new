@@ -16,7 +16,6 @@ services:
     environment:
      DB_URL: mongodb://db/vidly
 
-    command: ./docker-entrypoint.sh
     restart: unless-stopped
   db:
    image: mongo:4.0-xenial
